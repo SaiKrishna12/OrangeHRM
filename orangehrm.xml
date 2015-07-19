@@ -1,0 +1,18 @@
+<suite name="Orange HRM Demo Suite"  parallel="tests">
+  <test name="Firefox" >
+    <parameter name="browser"  value="firefox"/>
+    <classes>
+       <class name="com.qedge.testsuite.Login" />
+       <class name="com.qedge.testsuite.AddEmployee" />
+       <class name="com.qedge.testsuite.TimeSheet" />
+    </classes>
+  </test>
+  <test name="Chrome">
+    <parameter name="browser"  value="chrome"/>
+      <classes>
+       <class name="com.qedge.testsuite.Login" />
+       <class name="com.qedge.testsuite.AddEmployee" />
+       <class name="com.qedge.testsuite.TimeSheet" />
+    </classes>
+  </test>
+ </suite>

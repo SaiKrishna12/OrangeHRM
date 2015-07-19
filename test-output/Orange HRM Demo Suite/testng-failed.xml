@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Orange HRM Demo Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="Firefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.qedge.testsuite.TimeSheet">
+        <methods>
+          <include name="timeSheetTest"/>
+        </methods>
+      </class> <!-- com.qedge.testsuite.TimeSheet -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+</suite> <!-- Failed suite [Orange HRM Demo Suite] -->
